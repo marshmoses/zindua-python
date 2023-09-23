@@ -26,7 +26,7 @@
     #   if (number % 2 ==1):
    #       print[number,"is ODD"]
 
-#for num in range(0,1000):
+#for num   in range(0,1000):
     #if (num % 7==0):
         #print(num,"is  a multiple of 7")
 
