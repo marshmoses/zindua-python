@@ -1,0 +1,1 @@
+fibseqquence=[10]
