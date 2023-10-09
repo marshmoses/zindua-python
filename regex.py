@@ -58,8 +58,8 @@ if __name__ == "__main__":
                 print(f"Title: {article['Title']}")
 
                 print(f"Publication Date: {article['Publication Date']}")
+
                 
-                print("-" * 30)
         else:
             print("No articles found on the page.")
     else:
