@@ -3,10 +3,14 @@ class Person:
         self.name = name
         self.age = age
         self.occupation = occupation
+        self.country =country
+        self.race=race
 
     def greet(self):
     
-        print("Hello my name is " + self.name) 
+        print("Hello my name is " + self.name)
+    def cry(self) :
+        print(f"{self.name}" is a cry)
            
 myPerson= Person('Jack' , 76 ,'Lab Technician' )  
     
@@ -17,3 +21,13 @@ print(myPerson.age)
 
 print(myPerson.occupation)
 
+
+
+
+
+
+
+
+def hey(name):
+    name.hey()
+hello(myChild)   

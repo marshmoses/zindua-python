@@ -5,18 +5,18 @@ class InventoryItem:
         self.quantity = quantity
         self.price = price
 
-
+#create ims class
 class InventoryManagementSystem:
     def __init__(self):
         self.inventory = []
-
+#add item(user gets to append new itemto ims as II)
     def add_item(self, name, quantity, price):
         item = InventoryItem(name, quantity, price)
         self.inventory.append(item)
-
+#remove,,,,
     def remove_item(self, name):
         self.inventory = [item for item in self.inventory if item.name != name]
-
+#update,,,,
     def update_item(self, name, quantity=None, price=None):
         for item in self.inventory:
             if item.name == name:
@@ -24,11 +24,11 @@ class InventoryManagementSystem:
                     item.quantity = quantity
                 if price is not None:
                     item.price = price
-
+#display ciode
     def display_inventory(self):
         for item in self.inventory:
             print(f"Name: {item.name}, Quantity: {item.quantity}, Price: {item.price}")
-
+#loading from csv files
     def load_inventory_from_csv(self, filename):
         with open(filename, 'r') as file:
             reader = csv.reader(file)
