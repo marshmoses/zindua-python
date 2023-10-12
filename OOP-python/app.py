@@ -99,6 +99,6 @@ if __name__ == "__main__":
             print("Goodbye!")
             break
         else:
-            print("Invalid choice. Please choose a valid option (1/2/3/4/5).")
+            print("error. Please choose a valid option (1/2/3/4/5).")
 
      
